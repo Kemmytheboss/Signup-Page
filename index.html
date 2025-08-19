@@ -10,16 +10,26 @@
         <div class="container">
             <h1>SignUp</h1>
             <p>Please fill all sections in this form to create an account</p>
+            
+            <label for="name"><b>First Name</b></label>
+            <input type="text" placeholder="Enter First Name" name="name" required>
+            
+            <label for="last_name"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" name="last_name" required>
+            
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="email" required>
             
             <label for="password"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="password" required>
-
             
             <label for="repeat-password"><b>Repeat Password</b></label>
             <input type="repeat-password" placeholder="Repeat Password" name="repeat-password" required>
-
+           
+            <div>
+                <button type="button" class="classbtn">Cancel</button>
+                <button type="submit" class="signuobtn">SignUp</button>
+            </div>
         </div>
     </form>
 </body>
